@@ -23,7 +23,7 @@
               if(selected == '0'){
                 return this.$store.state.todo.todoList;
               }else if(selected == '1'){
-                return this.$store.getters.filterDoned;
+                return this.$store.getters.filterDoned;  //根据不同类型的选择，返回不同todolist
               }else if(selected == '2'){
                 return this.$store.getters.filterNoDoned;
               }
@@ -52,11 +52,12 @@
 <style>
   .todoList{
     width: 290px;
-    min-height: 40px;
+    min-height: 140px;
     margin:40px auto;
     padding-left: 5px;
-    border:1px solid #b8b8bf;
     padding-top: 5px;
+    margin-top: 20px;
+    margin-bottom: 50px;
   }
   .todoItem{
     width: 95%;

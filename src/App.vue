@@ -77,5 +77,6 @@ export default {
     width: 200px;
     height: 40px;
     margin: 0 auto;
+    text-align: center;
   }
 </style>

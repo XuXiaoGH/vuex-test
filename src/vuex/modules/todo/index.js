@@ -17,7 +17,7 @@ export default {
     actions: actions,
     mutations: mutations,
     getters:{
-        filterDoned: function (state) {
+        filterDoned: function (state) { //已完成的todo
             let todoList = state.todoList.filter((item)=>{
                 if(item.isDone){
                   return item;
