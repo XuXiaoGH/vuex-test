@@ -1,21 +1,22 @@
 # vuex-test
 
-> A Vue.js project
+> 一个非常简单的vuex todolist 小栗子
 
 ## Build Setup
 
 ``` bash
-# install dependencies
+# 安装依赖
 npm install
 
-# serve with hot reload at localhost:8080
+# 启动项目 localhost:8080
 npm run dev
 
-# build for production with minification
+# 打包项目
 npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
+## Tips
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+对于vuex的module两种写法里面也包含了
+todo是复杂写法
+login是简单写法
